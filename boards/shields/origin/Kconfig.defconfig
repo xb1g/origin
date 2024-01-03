@@ -1,14 +1,14 @@
-if SHIELD_MY_BOARD_LEFT
+if SHIELD_ORIGIN_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "My Board"
+    default "Origin"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
+if SHIELD_ORIGIN_LEFT || SHIELD_ORIGIN_RIGHT
 
 config ZMK_SPLIT
     default y

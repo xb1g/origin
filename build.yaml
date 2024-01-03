@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: origin
+  - board: nice_nano_v2
     shield: origin_left
-  - board: origin
+  - board: nice_nano_v2
     shield: origin_right
