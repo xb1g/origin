@@ -2,8 +2,9 @@ file_format: "1"
 id: origin
 name: Origin
 type: shield
-url: https://github.com/foostan/crkbd/
+url: https://github.com/xb1g/origin/
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
 siblings:
