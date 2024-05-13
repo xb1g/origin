@@ -38,7 +38,7 @@
     &kp Q    &kp W    &kp E     &kp R     &kp T                                                 &kp Y     &kp U     &kp I     &kp O     &kp P    
     &kp A    &kp S    &kp D     &kp F     &kp G                                                 &kp H     &kp J     &kp K     &kp L     &kp SEMI
     &kp Z    &kp X    &kp C     &kp V     &kp B                                                 &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
-                                &kp LGUI  &toly   &td_mt                     &kp SPACE &mo 1   &kp BSPC  
+                                &kp Y  &kp Y   &tkp Y                     &kp SPACE &kp Y   &kp BSPC  
             >;
                     };
 
@@ -50,8 +50,8 @@
 //                               |   GUI   |   DEL   | RETURN  |  SPACE  | ESCAPE  |  |  RETURN |  SPACE  |   TAB   |   BSPC  |  R ALT  |
             bindings = <
     &kp Y     &kp U     &kp I     &kp O     &kp P                                                  &kp Y     &kp U     &kp I     &kp O     &kp P    
-    &kp H     &kp J     &kp K     &kp L     &kp SEMI                                                &bt BT_SEL 1     &bt BT_SEL 2     &kp K     &kp L     &kp SEMI
-    &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH                                                 &bt BT_CLR     &kp M     &kp COMMA &kp DOT   &kp FSLH
+    &kp H     &kp J     &kp K     &kp L     &kp SEMI                                               &bt BT_SEL 1     &bt BT_SEL 2     &kp K     &kp L     &kp SEMI
+    &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH                                               &bt BT_CLR     &kp M     &kp COMMA &kp DOT   &kp FSLH
                                   &kp LGUI  &toly   &td_mt                      &kp SPACE &kp TAB   &kp BSPC
                         >;
             };
@@ -63,8 +63,8 @@
 // |  SHIFT  |    Z    |    X    |    C    |    V    |    B    | CTRL+A  | CTRL+C  |  |  CTRL+V |  CTRL+X |    N    |    M    |    ,    |    .    |    /    |  R CTRL |
 //                               |   GUI   |   DEL   | RETURN  |  SPACE  | ESCAPE  |  |  RETURN |  SPACE  |   TAB   |   BSPC  |  R ALT  |
             bindings = <
-    &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                                  &kp Y     &kp U     &kp I     &kp O     &kp P    
-    &kp N6     &kp N7     &kp N8  &kp N9      &kp N0                                                &kp H     &kp J     &kp K     &kp L     &kp SEMI
+    &kp N1     &kp N2     &kp N3  &kp N4     &kp N5                                                &kp Y     &kp U     &kp I     &kp O     &kp P    
+    &kp N6     &kp N7     &kp N8  &kp N9      &kp N0                                              &kp H     &kp J     &kp K     &kp L     &kp SEMI
     &kp N7     &kp N8     &kp N9    &kp N     &kp M                                               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH
                                  &kp LGUI  &toly  &td_mt                      &kp SPACE &kp TAB   &kp BSPC  
             >;
