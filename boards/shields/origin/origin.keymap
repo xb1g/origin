@@ -20,39 +20,32 @@
     compatible = "zmk,firmware";
     model = "zmk-firmware";
     
-    behaviors {
-        td_mt: tap_dance_mod_tap {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-                            //hold tap, tap tap
-           bindings = <&kp LSHFT>, <&kp LCTRL>, <&kp LALT>;
-        };
+    // behaviors {
+    //     td_mt: tap_dance_mod_tap {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <200>;
+    //                         //hold tap, tap tap
+    //        bindings = <&kp LSHFT>, <&kp LCTRL>, <&kp LALT>;
+    //     };
 
-        ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <220>;
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <100>;
-            bindings = <&kp>, <&kp>;
-        };
-        toly: to_lyr {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings =<&to 0>, <&to 1>, <&to 2>;
-        };
-    };
+    //     ht: hold_tap {
+    //         compatible = "zmk,behavior-hold-tap";
+    //         #binding-cells = <2>;
+    //         flavor = "tap-preferred";
+    //         tapping-term-ms = <220>;
+    //         quick-tap-ms = <150>;
+    //         require-prior-idle-ms = <100>;
+    //         bindings = <&kp>, <&kp>;
+    //     };
+    //     toly: to_lyr {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <200>;
+    //         bindings =<&to 0>, <&to 1>, <&to 2>;
+    //     };
+    // };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
